@@ -1,5 +1,7 @@
 defmodule Hangman do
 
-  defdelegate new_game(), to: Hangman.Game
+  defdelegate new_game(),
+    to: Hangman.Game,
+    as: :init
 
 end
