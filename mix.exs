@@ -16,7 +16,7 @@ defmodule Hangman.Mixfile do
 
   defp deps do
     [
-      { :dictionary, github: "mrkjlchvz/dictionary" },
+      { :dictionary, path: "../dictionary" },
     ]
   end
 end
