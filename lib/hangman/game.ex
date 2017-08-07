@@ -33,6 +33,8 @@ defmodule Hangman.Game do
   end
 
   ##########################################################################################
+  # API 
+  ##########################################################################################
 
   defp accept_move(game, _guess, _already_guessed = true) do
     Map.put(game, :game_state, :already_used)
